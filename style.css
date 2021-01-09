@@ -132,6 +132,7 @@ main .back-button {
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 
 .footer p { 
