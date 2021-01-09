@@ -155,9 +155,47 @@ main .back-button {
     text-decoration: none;
  }
 
- 
+ @media only screen and (max-width:300px) { 
+    header { 
+        padding-top: 1rem;
+        padding-left: 1rem;
+    
+    }
+    
+    header h1 { 
+        font-size: 2rem;
+        line-height: 2.1rem;
+    }
+    
+    main  { 
+        margin: 5rem 2.2rem 10rem 2.2rem;
+    }
+    
+    main img { 
+        display: inline-block;
+        max-width: 100%;
+        
+    }
+    
+    main .Item-container { 
+        padding: 0 3rem ;
+    }
+    
+    main .main-text{ 
+        font-size: 3.2rem;
+        line-height: 4.4rem;
+    }
+    
+    main .more-text { 
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    
 
- @media only screen and (max-width:500px) { 
+ }
+
+ @media only screen and (min-width:300px) and (max-width:1000px) { 
     header { 
         padding-top: 2rem;
         padding-left: 2.4rem;
@@ -190,7 +228,7 @@ main .back-button {
 
  }
 
- @media only screen and (max-width:1000px) { 
+ @media only screen and (min-width:500px) and (max-width:1000px) { 
     header { 
         padding-top: 2rem;
         padding-left: 2.4rem;
@@ -222,7 +260,7 @@ main .back-button {
 
  }
 
- @media only screen and (max-width:1600px) { 
+ @media only screen and (min-width:1000px) and (max-width:1600px) { 
     header { 
         padding-top: 3rem;
         padding-left: 5rem;
@@ -240,7 +278,7 @@ main .back-button {
     
     main img { 
         display: inline-block;
-        max-width: 45%;
+        max-width: 75%;
         
     }
     
@@ -259,28 +297,4 @@ main .back-button {
         line-height: 3.2rem;
     }
     
-    main .back-button { 
-        width: 216px;
-        height: 68px;
-        background: #333333;
-        font-weight: bold;
-        font-size: 1.4rem;
-        line-height: 2.1rem;
-        letter-spacing: -0.035em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
-    
-    .footer p { 
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        line-height: 1.7rem;
-        padding-bottom: 3.9rem;
-        font-size: 1.4rem;
-    }
-
  }
