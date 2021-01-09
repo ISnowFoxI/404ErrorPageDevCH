@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font families 
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+html { 
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 2.5rem;
+}
+
+header { 
+    padding-top: 4rem;
+    padding-left: 7rem;
+
+}
+
+h1 { 
+    font-weight: bold;
+}
+
+header h1 { 
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+main  { 
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row ;
+    margin: 20rem 7.7rem 30rem 7.7rem;
+}
+
+main img { 
+    display: inline-block;
+    max-width: 45%;
+    
+}
+
+main .Item-container { 
+    padding: 0 12rem ;
+}
+
+main .main-text{ 
+    display: inline-block;
+    font-weight: bold;
+    font-size: 6.4rem;
+    line-height: 9.5rem;
+    letter-spacing: -0.035em;
+    color: #333333;
+    max-width: 55.6rem;
+}
+
+main .more-text { 
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    max-width: 38.1rem;
+    margin-top: 3.6rem;
+    margin-bottom: 6.4rem;
+}
+
+main .back-button { 
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer p { 
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.7rem;
+    padding-bottom: 3.9rem;
+    font-size: 1.4rem;
+}
+
+.footer p a {
+    color: #333333;
+    text-decoration: none;
+ }
+
+ .footer p a:hover {
+    color: #CC5748;
+    text-decoration: none;
+ }
+
+ 
+
+ @media only screen and (max-width:500px) { 
+    header { 
+        padding-top: 2rem;
+        padding-left: 2.4rem;
+    }
+
+    main  { 
+        margin: 6.4rem 4.4rem 9.6rem 4.4rem;
+    }
+    
+    main img { 
+        max-width: 100%;
+        
+    }
+    
+    main .Item-container { 
+        padding: 0 2.4rem ;
+    }
+    
+    main .main-text{ 
+         font-size: 4.8rem;
+        line-height: 7.1rem;
+    }
+    
+    main .more-text { 
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        margin-top: 3rem;
+    }
+   
+
+ }
+
+ @media only screen and (max-width:1000px) { 
+    header { 
+        padding-top: 2rem;
+        padding-left: 2.4rem;
+    }
+
+    main  { 
+        margin: 6.4rem 4.4rem 9.6rem 4.4rem;
+    }
+    
+    main img { 
+        max-width: 100%;
+        
+    }
+    
+    main .Item-container { 
+        padding: 0 2.4rem ;
+    }
+    
+    main .main-text{ 
+         font-size: 4.8rem;
+        line-height: 7.1rem;
+    }
+    
+    main .more-text { 
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        margin-top: 3rem;
+    }
+
+ }
+
+ @media only screen and (max-width:1600px) { 
+    header { 
+        padding-top: 3rem;
+        padding-left: 5rem;
+    
+    }
+    
+    header h1 { 
+        font-size: 2rem;
+        line-height: 2.1rem;
+    }
+    
+    main  { 
+        margin: 10rem 4.4rem 20rem 4.4rem;
+    }
+    
+    main img { 
+        display: inline-block;
+        max-width: 45%;
+        
+    }
+    
+    main .Item-container { 
+        padding: 0 6rem ;
+    }
+    
+    main .main-text{ 
+        font-size: 5.8rem;
+        line-height: 8.4rem;
+    }
+    
+    main .more-text { 
+        font-weight: normal;
+        font-size: 2.1rem;
+        line-height: 3.2rem;
+    }
+    
+    main .back-button { 
+        width: 216px;
+        height: 68px;
+        background: #333333;
+        font-weight: bold;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .footer p { 
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        line-height: 1.7rem;
+        padding-bottom: 3.9rem;
+        font-size: 1.4rem;
+    }
+
+ }
