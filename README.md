@@ -34,7 +34,10 @@
 
 ## Overview
 
-![screenshot](./desktop1.png)
+![screenshot](/desktop1.png "Desktop version")
+![screenshot](/desktop2.png "Desktop version")
+![screenshot](/mobile1.png "Mobile version")
+![screenshot](/mobile2.png "Mobile version")
 
 Here are some screenshots of the page I worked on :).
 ### Built With
